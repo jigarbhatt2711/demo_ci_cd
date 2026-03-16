@@ -10,7 +10,3 @@ default: &default
 development:
   <<: *default
   database: storage_development
-
-test:
-  <<: *default
-  database: storage_test
